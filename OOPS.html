@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️USA Organisation❤️</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: rgb(239, 239, 244); */
+            color: antiquewhite;
+        }
+
+       /* Your existing CSS styles for navigation */
+       .nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            width: 100%;
+            display: flex;
+            background-color: #110436ee;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        
+        .nav a {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .nav a:hover {
+   background-color: navy;
+    box-shadow: 0 12px 16px 0 whitesmoke, 0 12px 16px 0 whitesmoke; /* Change the box-shadow on hover */
+color: white;
+z-index: 2;
+}
+
+        /* Styles for side navigation and content */
+        .sidenav {
+            position: fixed;
+            left: 0;
+            margin-top: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #110436ee;
+            padding-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .question-list {
+            list-style: none;
+            padding: 0;
+            overflow-y: auto;
+            max-height: calc(100vh - 100px); /* Adjust as needed */
+            
+        }
+
+        .question-list-item {
+            margin-bottom: 10px;
+            background-color: #110436ee;
+        }
+
+        .question-list-item a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 5px 10px;
+        }
+
+        .content {
+            margin-left: 260px;
+            padding: 10px;
+        }
+
+        .question {
+            font-weight: bold;
+            color: #333;
+            
+        }
+
+        .answer {
+            margin-left: 20px;
+            color: #666;
+        }
+
+        p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html" class="logo"><img src="logo.png" style="width: 75px; height: 55px; border-radius: 15px;" alt="USA Organisation Logo"></a>
+        <a href="c.html">C</a>
+        <a href="c++.html">C++</a>
+        <a href="java.html">JAVA</a>
+        <a href="OOPS.html">OOPS</a>
+        <a href="python.html">Python</a>
+        <a href="spring.html">Spring</a>
+        <a href="springboot.html">SpringBoot</a>
+        <a href="Html.html">HTML</a>
+        <a href="CSS.html">CSS</a>
+        <a href="JavaScript.html">JavaScript</a>
+        <a href="React.html">React</a>
+        <a href="MySQL.html">MySQL</a>
+        <a href="MostQues.html">OverAllQues</a>
+    </div>
+   
+
+    <div class="sidenav">
+        <ul class="question-list">
+            <li class="question-list-item"><a href="#question1">What is Object-Oriented Programming (OOP)?</a></li>
+            <li class="question-list-item"><a href="#question2">What are the four pillars of OOP?</a></li>
+            <!-- Add more questions to the list -->
+            <li class="question-list-item"><a href="#question3"> Explain the concept of Encapsulation.</a></li>
+            <li class="question-list-item"><a href="#question4">What is Inheritance?</a></li>
+            <li class="question-list-item"><a href="#question5"> Explain the concept of Polymorphism with an example.</a></li>
+            <li class="question-list-item"><a href="#question6">What is Abstraction and why is it important?</a></li>
+            <li class="question-list-item"><a href="#question7"> What is a Class and an Object?</a></li>
+            <li class="question-list-item"><a href="#question8"> What is the difference between a Class and an Object?</a></li>
+            <li class="question-list-item"><a href="#question9">Explain the concept of Method Overloading.</a></li>
+            <li class="question-list-item"><a href="#question10">What is Method Overriding?</a></li>
+            <li class="question-list-item"><a href="#question11"> What is the difference between Composition and Inheritance?</a></li>
+            <li class="question-list-item"><a href="#question12">What is the Diamond Problem in multiple inheritance?</a></li>
+            <li class="question-list-item"><a href="#question13">What is the purpose of the 'super' keyword in Java?</a></li>
+            <li class="question-list-item"><a href="#question14">What is a Constructor in Java?</a></li>
+            <li class="question-list-item"><a href="#question15">Explain the concept of Method Overriding with an example.</a></li>
+            <li class="question-list-item"><a href="#question16"> What is the 'final' keyword used for in Java?</a></li>
+            <li class="question-list-item"><a href="#question17"> What is an Abstract Class?</a></li>
+            <li class="question-list-item"><a href="#question18"> What is an Interface?</a></li>
+            <li class="question-list-item"><a href="#question19"> What is the difference between an Abstract Class and an Interface?</a></li>
+            <li class="question-list-item"><a href="#question20">What is the concept of Object Cloning in Java?</a></li>
+            <li class="question-list-item"><a href="#question21"> What is the Liskov Substitution Principle (LSP) and how does it relate to OOP?</a></li>
+            <li class="question-list-item"><a href="#question22"> What is the Open/Closed Principle (OCP) and how does it promote maintainable code?</a></li>
+            <li class="question-list-item"><a href="#question23"> How does Polymorphism enhance code flexibility and extensibility?</a></li>
+            <li class="question-list-item"><a href="#question24">What is the role of the Factory Method design pattern?</a></li>
+            <li class="question-list-item"><a href="#question25">How does the Observer design pattern work and where is it commonly used?</a></li>
+            <li class="question-list-item"><a href="#question26">What is the Strategy design pattern and how does it promote interchangeable behaviors?</a></li>
+            <li class="question-list-item"><a href="#question27">What is the Proxy design pattern and in which scenarios is it useful?</a></li>
+            <li class="question-list-item"><a href="#question28">Explain the Singleton design pattern and its various implementations.</a></li>
+            <li class="question-list-item"><a href="#question29">How does the Command design pattern enable decoupling of sender and receiver objects?</a></li>
+            <li class="question-list-item"><a href="#question30"> How does Composition differ from Inheritance in terms of code design?</a></li>
+            <li class="question-list-item"><a href="#question31">What is the Diamond Problem and how does virtual inheritance solve it?</a></li>
+            <li class="question-list-item"><a href="#question32"> What is a Destructor and why is it important in C++?</a></li>
+            <li class="question-list-item"><a href="#question33">What is Cohesion and why is it important in software design?</a></li>
+            <li class="question-list-item"><a href="#question34"> Explain the different levels of Cohesion.</a></li>
+            <li class="question-list-item"><a href="#question35">What is Coupling and why is it important in software design?</a></li>
+            <li class="question-list-item"><a href="#question36">Explain the different types of Coupling.</a></li>
+            <li class="question-list-item"><a href="#question37">What is Association in object-oriented programming?</a></li>
+            <li class="question-list-item"><a href="#question38"> What is Aggregation and Composition in Association?</a></li>
+            <li class="question-list-item"><a href="#question39">What is Dependency and how does it relate to Association?</a></li>
+            <li class="question-list-item"><a href="#question40">What is a Design Pattern and why are they important in software development?</a></li>
+            <li class="question-list-item"><a href="#question41">Explain the Singleton Design Pattern with an example.</a></li>
+            <li class="question-list-item"><a href="#question42"> What is the Observer Design Pattern and how is it implemented?</a></li>
+
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="question" id="question1">
+            <h2>What is Object-Oriented Programming (OOP)?</h2>
+            <p><strong style="color: red;">Object-Oriented Programming (OOP)</strong> is a programming paradigm that organizes code into objects, which are instances of classes. It promotes the use of classes, objects, encapsulation, inheritance, and polymorphism to design and build software systems.</p>
+        </div>
+        <div class="question" id="question2">
+            <h2>What are the four pillars of OOP?</h2>
+            <p>The four pillars of <strong style="color: red;">OOP</strong> are:<br>
+            1. <strong>Encapsulation:</strong> Bundling data (attributes) and methods (functions) that operate on the data into a single unit (class).<br>
+            2. <strong>Inheritance:</strong> Creating a new class (subclass or derived class) from an existing class (superclass or base class), inheriting its attributes and behaviors.<br>
+            3. <strong>Polymorphism:</strong> Providing multiple implementations for a single method or function, allowing different classes to respond differently to the same method call.<br>
+            4. <strong>Abstraction:</strong> Simplifying complex reality by modeling classes based on their essential attributes and behaviors.</p>
+        </div>
+        
+        <!-- Add more question-answer pairs as needed -->
+        <div class="question" id="question3">
+            <h2>Explain the concept of Encapsulation.</h2>
+            <p><strong style="color: red;">Encapsulation</strong> is the practice of bundling data (attributes) and methods (functions) that operate on the data into a single unit (class). It hides the internal implementation details from the outside world and provides controlled access to the data through public methods (getters and setters).</p>
+        </div>
+        <div class="question" id="question4">
+            <h2>What is Inheritance?</h2>
+            <p><strong style="color: red;">Inheritance</strong> is the process of creating a new class (subclass or derived class) from an existing class (superclass or base class). The subclass inherits attributes and behaviors (methods) from the superclass, allowing code reusability and creating a hierarchy of classes.</p>
+        </div>
+        
+        <div class="question" id="question5">
+            <h2>Explain the concept of Polymorphism with an example.</h2>
+            <p><strong style="color: red;">Polymorphism</strong> allows objects of different classes to be treated as objects of a common superclass. It provides flexibility by enabling different classes to respond to the same method call. Example: Method overriding, where subclasses provide their own implementation for a method defined in the superclass.</p>
+        </div>
+        <div class="question" id="question6">
+            <h2>What is Abstraction and why is it important?</h2>
+            <p><strong style="color: red;">Abstraction</strong> is the process of simplifying complex reality by modeling classes based on their essential attributes and behaviors. It helps in hiding unnecessary details and focusing on what's important. Abstraction allows developers to create reusable, maintainable, and understandable code.</p>
+        </div>
+        
+        <div class="question" id="question7">
+            <h2>What is a Class and an Object?</h2>
+            <p>A <strong style="color: red;">Class</strong> is a blueprint or template for creating objects. It defines attributes (data) and methods (functions) that the objects of the class will have. An <strong style="color: red;">Object</strong> is an instance of a class, representing a real-world entity with its attributes and behaviors.</p>
+        </div>
+        <div class="question" id="question8">
+            <h2>What is the difference between a Class and an Object?</h2>
+            <p>The main differences are:<br>
+            - A <strong style="color: red;">Class</strong> is a blueprint or template for creating objects, while an <strong style="color: red;">Object</strong> is an instance of a class.<br>
+            - A class defines attributes and methods, while an object holds values for attributes and can perform methods.<br>
+            - You can have multiple objects of the same class, but there's only one class definition.</p>
+        </div>
+        
+        <div class="question" id="question9">
+            <h2>Explain the concept of Method Overloading.</h2>
+            <p><strong style="color: red;">Method Overloading</strong> is the ability to define multiple methods in the same class with the same name but different parameters. The methods must have different parameter types or a different number of parameters. The appropriate method is selected at compile-time based on the arguments provided.</p>
+        </div>
+        
+        <div class="question" id="question10">
+            <h2>What is Method Overriding?</h2>
+            <p><strong style="color: red;">Method Overriding</strong> is the process of providing a new implementation for a method that is already defined in the superclass. The method in the subclass has the same name, return type, and parameters as the method in the superclass. It allows a subclass to provide its specific implementation for the method.</p>
+        </div>
+        <div class="question" id="question11">
+            <h2>What is the difference between Composition and Inheritance?</h2>
+            <p><strong style="color: red;">Composition</strong> is a relationship between classes where one class contains an instance of another class as a member. It represents a "has-a" relationship. <strong style="color: red;">Inheritance</strong> is a relationship between classes where a subclass inherits attributes and methods from a superclass. It represents an "is-a" relationship.</p>
+        </div>
+        <div class="question" id="question12">
+            <h2>What is the Diamond Problem in multiple inheritance?</h2>
+            <p>The <strong style="color: red;">Diamond Problem</strong> occurs in languages that support multiple inheritance, where a class inherits from two classes that have a common superclass. This can lead to ambiguity when calling methods or accessing attributes from the common superclass. Languages like Java resolve this by allowing only single inheritance (class extends only one class).</p>
+        </div>
+        <div class="question" id="question13">
+            <h2>What is the purpose of the 'super' keyword in Java?</h2>
+            <p>The <strong style="color: red;">'super'</strong> keyword in Java is used to refer to the superclass of a subclass. It can be used to call superclass constructors, methods, and access attributes. It's useful when there's a need to differentiate between superclass and subclass members with the same name.</p>
+        </div>
+        
+        <div class="question" id="question14">
+            <h2>What is a Constructor in Java?</h2>
+            <p>A <strong style="color: red;">Constructor</strong> is a special method in a class that is used to initialize objects when they are created. It has the same name as the class and is automatically called when an object is instantiated. Constructors can be parameterized or non-parameterized.</p>
+        </div>
+        
+        <div class="question" id="question15">
+            <h2>Explain the concept of Method Overriding with an example.</h2>
+            <p><strong style="color: red;">Method Overriding</strong> allows a subclass to provide a specific implementation for a method that is already defined in the superclass. Example:<br>
+            <code>
+            class Animal {<br>
+                void makeSound() {<br>
+                    System.out.println("Animal makes a sound");<br>
+                }<br>
+            }<br><br>
+            class Dog extends Animal {<br>
+                void makeSound() {<br>
+                    System.out.println("Dog barks");<br>
+                }<br>
+            }</code><br>
+            In this example, the 'makeSound' method is overridden in the 'Dog' subclass to provide a different implementation.</p>
+        </div>
+        
+        <div class="question" id="question16">
+            <h2>What is the 'final' keyword used for in Java?</h2>
+            <p>The <strong style="color: red;">'final'</strong> keyword is used to restrict certain actions:<br>
+            - In the context of a <strong>variable</strong>, it indicates that the value cannot be changed once assigned.<br>
+            - In the context of a <strong>method</strong>, it prevents the method from being overridden by subclasses.<br>
+            - In the context of a <strong>class</strong>, it prevents the class from being subclassed.</p>
+        </div>
+        <div class="question" id="question17">
+            <h2>What is an Abstract Class?</h2>
+            <p>An <strong style="color: red;">Abstract Class</strong> is a class that cannot be instantiated on its own and serves as a blueprint for creating subclasses. It may contain abstract methods (methods without implementation) that must be overridden by its subclasses. Abstract classes are meant to be extended.</p>
+        </div>
+        <div class="question" id="question18">
+            <h2>What is an Interface?</h2>
+            <p>An <strong style="color: red;">Interface</strong> is a reference type in Java that defines a contract of methods that implementing classes must adhere to. It contains abstract methods, constants, and default methods. A class can implement multiple interfaces but can extend only one class.</p>
+        </div>
+        <div class="question" id="question19">
+            <h2>What is the difference between an Abstract Class and an Interface?</h2>
+            <p>The main differences are:<br>
+            - An <strong style="color: red;">Abstract Class</strong> can have instance variables, constructors, and methods with or without implementation, while an <strong style="color: red;">Interface</strong> can only have abstract methods, constants, and default methods.<br>
+            - A class can extend only one abstract class but can implement multiple interfaces.<br>
+            - An abstract class can have access modifiers for its members, while all members of an interface are public by default.</p>
+        </div>
+        
+        <div class="question" id="question20">
+            <h2>What is the concept of Object Cloning in Java?</h2>
+            <p><strong style="color: red;">Object Cloning</strong> in Java refers to creating a copy of an existing object. This can be achieved by implementing the 'Cloneable' interface and overriding the 'clone' method. Cloning can be shallow (copy references) or deep (copy objects referred to).</p>
+        </div>
+        
+        <div class="question" id="question21">
+            <h2>What is the Liskov Substitution Principle (LSP) and how does it relate to OOP?</h2>
+            <p>The <strong style="color: red;">Liskov Substitution Principle (LSP)</strong> states that objects of a derived class should be substitutable for objects of the base class without affecting the correctness of the program. In other words, if S is a subtype of T, then objects of type T should be replaceable with objects of type S without altering the desirable properties of the program. This principle ensures that polymorphism works correctly in object-oriented systems.</p>
+        </div>
+        
+        <div class="question" id="question22">
+            <h2>What is the Open/Closed Principle (OCP) and how does it promote maintainable code?</h2>
+            <p>The <strong style="color: red;">Open/Closed Principle (OCP)</strong> states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that new functionality can be added without altering existing code. By adhering to the OCP, code becomes more maintainable, robust, and less prone to introducing bugs when new features are added.</p>
+        </div>
+        
+        <div class="question" id="question23">
+            <h2>How does Polymorphism enhance code flexibility and extensibility?</h2>
+            <p><strong style="color: red;">Polymorphism</strong> allows objects of different classes to be treated as objects of a common superclass, promoting code flexibility and extensibility. This allows for more generic and reusable code, as a single interface can be used to interact with various implementations. Polymorphism is a fundamental concept in OOP that supports features like method overriding and interfaces.</p>
+        </div>
+        
+        <div class="question" id="question24">
+            <h2>What is the role of the Factory Method design pattern?</h2>
+            <p>The <strong style="color: red;">Factory Method</strong> design pattern defines an interface for creating objects but delegates the responsibility of instantiation to its subclasses. This pattern allows a class to delegate the responsibility of instantiating objects to its subclasses, promoting loose coupling and allowing the system to be easily extended with new types of objects.</p>
+        </div>
+        
+        <div class="question" id="question25">
+            <h2>How does the Observer design pattern work and where is it commonly used?</h2>
+            <p>The <strong style="color: red;">Observer</strong> design pattern defines a one-to-many dependency between objects, so that when one object changes state, all its dependents are notified and updated automatically. This pattern is used when a change to one object requires changing other objects without knowing their specific classes. It's commonly used in event handling systems, GUI frameworks, and real-time monitoring applications.</p>
+        </div>
+        
+        <div class="question" id="question26">
+            <h2>What is the Strategy design pattern and how does it promote interchangeable behaviors?</h2>
+            <p>The <strong style="color: red;">Strategy</strong> design pattern defines a family of interchangeable algorithms or behaviors, encapsulates each algorithm, and makes them interchangeable. It allows the client to choose an algorithm from a family of algorithms at runtime. This pattern promotes flexibility and avoids the need to modify classes that use the algorithm. It's often used to implement algorithms in a pluggable way.</p>
+        </div>
+        
+        <div class="question" id="question27">
+            <h2>What is the Proxy design pattern and in which scenarios is it useful?</h2>
+            <p>The <strong style="color: red;">Proxy</strong> design pattern provides a surrogate or placeholder for another object to control access to it. It can be used in scenarios where an expensive or resource-intensive object needs to be created only when it is required. Common scenarios include lazy loading of objects, access control, logging, and caching.</p>
+        </div>
+        
+  
+        <div class="question" id="question28">
+            <h2>Explain the Singleton design pattern and its various implementations.</h2>
+            <p>The <strong style="color: red;">Singleton</strong> design pattern ensures that a class has only one instance and provides a global point of access to that instance. It is often used to represent a system-wide resource or configuration. Singleton can be implemented using different approaches, including eagerly initialized, lazily initialized, and thread-safe variations using double-checked locking or initialization-on-demand holder idiom.</p>
+        </div>
+        <div class="question" id="question29">
+            <h2>How does the Command design pattern enable decoupling of sender and receiver objects?</h2>
+            <p>The <strong style="color: red;">Command</strong> design pattern encapsulates a request as an object, thereby allowing for parameterization of clients with different requests, queuing of requests, and logging of the requests. It enables decoupling of sender (client) and receiver (invoker and executor) objects, promoting flexibility and extensibility. It's commonly used in menu systems, GUI applications, and multi-level undo features.</p>
+        </div>
+       
+        <div class="question" id="question30">
+            <h2>How does Composition differ from Inheritance in terms of code design?</h2>
+            <p><strong style="color: red;">Composition</strong> involves creating objects of other classes within a class to reuse functionality, whereas <strong style="color: red;">Inheritance</strong> involves inheriting properties and behaviors from a superclass. Composition promotes loose coupling and allows for more flexibility in changing behavior, while inheritance creates a tighter relationship between classes.</p>
+        </div>
+        <div class="question" id="question31">
+            <h2>What is the Diamond Problem and how does virtual inheritance solve it?</h2>
+            <p>The <strong style="color: red;">Diamond Problem</strong> is an issue that occurs in languages that support multiple inheritance when a class inherits from two classes that have a common base class. This leads to ambiguity in resolving which version of the inherited method to use. <strong style="color: red;">Virtual inheritance</strong> is a technique used to avoid duplicate inheritance paths and resolve the Diamond Problem by creating a single shared base class instance.</p>
+        </div>
+        <div class="question" id="question32">
+            <h2>What is a Destructor and why is it important in C++?</h2>
+            <p><strong style="color: red;">A Destructor</strong> is a special member function in a class that is automatically called when an object goes out of scope or is explicitly deleted. It is used to release resources and perform cleanup tasks associated with the object, such as freeing memory and closing files. Destructors are crucial to prevent memory leaks and resource exhaustion.</p>
+        </div>
+        <div class="question" id="question33">
+            <h2>What is Cohesion and why is it important in software design?</h2>
+            <p><strong style="color: red;">Cohesion</strong> refers to the degree to which the elements within a module or class are related to each other. High cohesion means that the elements within a module have a strong functional relationship and work together towards a common goal. It's important in software design to achieve modularity, maintainability, and ease of understanding.</p>
+        </div>
+        <div class="question" id="question34">
+            <h2>Explain the different levels of Cohesion.</h2>
+            <p>Cohesion can be classified into different levels:<br>
+            1. <strong style="color: red;">Functional Cohesion</strong>: Elements perform related tasks within a single functionality.<br>
+            2. <strong style="color: red;">Sequential Cohesion</strong>: Output of one element is the input of another, forming a sequence.<br>
+            3. <strong style="color: red;">Communicational Cohesion</strong>: Elements operate on the same data, often seen in utilities.<br>
+            4. <strong style="color: red;">Procedural Cohesion</strong>: Elements are organized to perform a specific sequence of actions.<br>
+            5. <strong style="color: red;">Temporal Cohesion</strong>: Elements perform tasks within the same time frame.</p>
+        </div>
+        <div class="question" id="question35">
+            <h2>What is Coupling and why is it important in software design?</h2>
+            <p><strong style="color: red;">Coupling</strong> refers to the degree of interdependence between modules or classes. Low coupling means that modules are loosely connected and changes in one module don't affect others significantly. High coupling can lead to difficulties in maintenance, reusability, and flexibility. Managing coupling is essential for creating maintainable and scalable software.</p>
+        </div>
+        <div class="question" id="question36">
+            <h2>Explain the different types of Coupling.</h2>
+            <p>Coupling can be classified into different types:<br>
+            1. <strong style="color: red;">Content Coupling</strong>: One module accesses the content of another module's data.<br>
+            2. <strong style="color: red;">Common Coupling</strong>: Modules share global data or a common environment.<br>
+            3. <strong style="color: red;">External Coupling</strong>: Modules communicate through parameters, such as function arguments.<br>
+            4. <strong style="color: red;">Control Coupling</strong>: One module controls the flow of another module by passing control flags.<br>
+            5. <strong style="color: red;">Stamp Coupling</strong>: Modules share a composite data structure.</p>
+        </div>
+        <div class="question" id="question37">
+            <h2>What is Association in object-oriented programming?</h2>
+            <p><strong style="color: red;">Association</strong> is a relationship between two or more classes where objects of one class are connected to objects of another class. It represents how classes interact and collaborate. Associations can be one-way or two-way, and they may have multiplicity to indicate the number of objects involved in the relationship.</p>
+        </div>
+        <div class="question" id="question38">
+            <h2>What is Aggregation and Composition in Association?</h2>
+            <p><strong style="color: red;">Aggregation</strong> is a type of association where one class is part of another class, but it can exist independently. It represents a "whole-part" relationship. <strong style="color: red;">Composition</strong> is a stronger form of aggregation where the part cannot exist without the whole. For example, a car is composed of an engine and wheels (composition), while a university has students (aggregation).</p>
+        </div>
+        <div class="question" id="question39">
+            <h2>What is Dependency and how does it relate to Association?</h2>
+            <p><strong style="color: red;">Dependency</strong> is a relationship between classes where one class relies on another class to perform its functionality. It occurs when one class uses another class as a parameter, local variable, or return type. Dependency is weaker than association and signifies a temporary or indirect relationship.</p>
+        </div>
+        <div class="question" id="question40">
+            <h2>What is a Design Pattern and why are they important in software development?</h2>
+            <p><strong style="color: red;">Design Patterns</strong> are proven solutions to recurring software design problems. They offer well-defined solutions that can be reused across projects to improve code quality, maintainability, and scalability. Design Patterns provide a common vocabulary for discussing design decisions and help developers apply best practices.</p>
+        </div>
+        <div class="question" id="question41">
+            <h2>Explain the Singleton Design Pattern with an example.</h2>
+            <p>The <strong style="color: red;">Singleton Design Pattern</strong> ensures that a class has only one instance and provides a global point of access to that instance. Example:<br>
+            <code>
+            class Singleton {<br>
+                private static Singleton instance;<br>
+                private Singleton() {}<br>
+                public static Singleton getInstance() {<br>
+                    if (instance == null) {<br>
+                        instance = new Singleton();<br>
+                    }<br>
+                    return instance;<br>
+                }<br>
+            }</code></p>
+        </div>
+        <div class="question" id="question42">
+            <h2>What is the Observer Design Pattern and how is it implemented?</h2>
+            <p>The <strong style="color: red;">Observer Design Pattern</strong> defines a one-to-many dependency between objects. When one object (subject) changes state, its dependent objects (observers) are notified and updated automatically. It's implemented using interfaces or abstract classes to define subject and observer roles, allowing multiple observers to subscribe to changes.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
